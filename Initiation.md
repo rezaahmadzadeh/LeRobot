@@ -1,6 +1,6 @@
 # Quick Start for LeRobot SO-ARM101
 
-After setting up the robot and getting it connected to power and your computer through UCB, follow these steps:
+After setting up the robot and getting it connected to power and your computer through USB, follow these steps:
 
 1- get info: allows to check if the robot is detected as a device
 lerobot-info
