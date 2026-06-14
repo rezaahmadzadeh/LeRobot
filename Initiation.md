@@ -2,19 +2,23 @@
 
 After setting up the robot and getting it connected to power and your computer through USB, follow these steps:
 
-1- get info: allows to check if the robot is detected as a device
+### 1. Get info 
+Allows to check if the robot is detected as a device
+
 ```
 lerobot-info
 ```
 
-2- port finder (finding to which port the robot is connected to)
+### 2. Find ports
+This port finder (finding to which port the robot is connected to) allows you to pint-point which port your robot is using
 ```
 lerobot-find-port
 ```
 
 after running, it first shows a list of ports, then asks the user to disconnect the USB cable from the computer to detect which port was activated/deactivated. It then returns the specific port and asks the user to reconnect. 
 
-3- In most cases, the user needs to change the permission to avoid getting a permission denied error.
+### 3. Permission
+In most cases, the user needs to change the permission to avoid getting a permission denied error.
 
 ```
 sudo chmod 666 [port]
@@ -25,7 +29,8 @@ example:
 sudo chmod 666 /dev/ttyACM0
 ```
 
-4- calibration: before using the robot, it is necessary to perform the calibdation process.
+### 4. calibration 
+Before using the robot, it is necessary to perform the calibdation process.
 
 ```
 lerobot-calibrate [robot.type] [robot.port] [robot.id]
@@ -51,7 +56,18 @@ example:
 ```
 lerobot-calibrate --teleop.type=so101_leader --teleop.port=/dev/ttyACM1 --teleop.id=cool_leader
 ```
-
-
-
 The calibration file is recorded and stored in the following directory by default `.cache/huggingface/lerobot/calibdation/teleoperators/so_leader/[teleop.id].json`.
+
+### 5. Camera detection
+If you have a camera attached, you can find the camera index by running
+
+```lerobot-find-camera```
+
+If this is an OpenCV camera, you can also specify
+
+
+```lerobot-find-camera opencv```
+
+
+
+
