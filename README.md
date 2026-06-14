@@ -12,7 +12,7 @@ Information can be found in [firmware_update.md]
 Note that this process requires a Windows machine.
 
 ### 4. Sample code for testing
-Information can be found in [Sample_code.md]
+Information can be found in [Sample_Code.md]
 
 <hr>
 
