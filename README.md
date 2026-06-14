@@ -11,8 +11,12 @@ Start by reading the [Initiation.md](Initiation.md)
 Information can be found in [firmware_update.md]
 Note that this process requires a Windows machine.
 
-### 4. Sample code for testing
+### 4. Sample code for testing the follower
 Information can be found in [Sample_Code.md](Sample_Code.md)
+
+### 5. Teleoperation
+Teleoperating the follower using the leader [Teleoperation.md](teleoperation.md)
+
 
 <hr>
 
