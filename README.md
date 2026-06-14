@@ -1,16 +1,18 @@
 # LeRobot
 This repository keeps code related to the LeRobot SO-ARM101.
 
-### Software Installation
+### 1. Software Installation
 You can find installation steps in [Installation.md](Installation.md)
 
-### Quick Start
+### 2. Quick Start
 Start by reading the [Initiation.md](Initiation.md)
 
-### Servo Motor Firmware Update
+### 3. Servo Motor Firmware Update
 Information can be found in [firmware_update.md]
 Note that this process requires a Windows machine.
 
+### 4. Sample code for testing
+Information can be found in [Sample_code.md]
 
 <hr>
 
