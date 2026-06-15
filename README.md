@@ -17,6 +17,8 @@ Information can be found in [Sample_Code.md](Sample_Code.md)
 ### 5. Teleoperation
 Teleoperating the follower using the leader [Teleoperation.md](teleoperation.md)
 
+### 6. Data Collection via Demonstration
+With the follower and leader, you can record demonstrations. See the details in [Recording.md](Recording.md)
 
 <hr>
 
