@@ -1,5 +1,5 @@
 # LeRobot
-This repository keeps code related to the LeRobot SO-ARM101.
+This repository keeps instructions, code, and data related to the LeRobot SO-ARM101.
 
 ### 1. Software Installation
 You can find installation steps in [Installation.md](Installation.md)
