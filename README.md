@@ -1,4 +1,4 @@
-# LeRobot
+# LeRobot - SO-ARM101
 This repository keeps instructions, code, and data related to the LeRobot SO-ARM101.
 
 ### 1. Software Installation
