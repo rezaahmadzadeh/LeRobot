@@ -8,6 +8,19 @@ Teleoperation can be done using the following command:
 lerobot-teleoperate --robot.type=so101_follower --robot.port=/dev/ttyACM1 --robot.id=cool1 --teleop.type=so101_leader --teleop.port=/dev/ttyACM0 --teleop.id=cool1leader
 ```
 
+detail:
+```bash
+lerobot-teleoperate \
+ --robot.type=so101_follower \
+ --robot.port=/dev/ttyACM1 \
+ --robot.id=cool1 \
+ --teleop.type=so101_leader \
+ --teleop.port=/dev/ttyACM0 \
+ --teleop.id=cool1leader
+```
+
+
+
 ## Important notes
 
 **Note 1:** ensure both ports are connected with proper permission.
@@ -22,6 +35,19 @@ lerobot-teleoperate --robot.type=so101_follower --robot.port=/dev/ttyACM1 --robo
 With a camera installed, you can perform the teleoperation using the following command:
 ```
  lerobot-teleoperate --robot.type=so101_follower --robot.port=/dev/ttyACM1 --robot.id=cool1 --robot.cameras="{handeye: {type: opencv, index_or_path: 4, width: 640, height: 480, fps: 30}}" --teleop.type=so101_leader --teleop.port=/dev/ttyACM0 --teleop.id=cool1leader --display_data=true
+```
+
+detail:
+```bash
+lerobot-teleoperate \
+ --robot.type=so101_follower \
+ --robot.port=/dev/ttyACM1 \
+ --robot.id=cool1 \
+ --robot.cameras="{handeye: {type: opencv, index_or_path: 4, width: 640, height: 480, fps: 30}}" \
+ --teleop.type=so101_leader \
+ --teleop.port=/dev/ttyACM0 \
+ --teleop.id=cool1leader \
+ --display_data=true
 ```
 
 
